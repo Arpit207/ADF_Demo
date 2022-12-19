@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "AzureDataFactoryArpit"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"sharingIR_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/8d8c63d1-24de-4522-a6da-df61836938ca/resourcegroups/Demo/providers/Microsoft.DataFactory/factories/ADFdemoArpit1/integrationruntimes/integrationRuntime1"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"sharingIR_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('sharingIR_properties_typeProperties_linkedInfo_resourceId')]"
