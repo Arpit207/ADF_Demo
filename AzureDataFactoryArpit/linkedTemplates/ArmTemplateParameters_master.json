@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AzureDataFactoryArpit"
+		},
+		"sharingIR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/8d8c63d1-24de-4522-a6da-df61836938ca/resourcegroups/Demo/providers/Microsoft.DataFactory/factories/ADFdemoArpit1/integrationruntimes/integrationRuntime1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
