@@ -1,0 +1,9 @@
+{
+	"name": "AzureDataFactoryArpit",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5cd43c1f-aa78-4012-b826-36d3f7f3853c",
+		"tenantId": "e4e34038-ea1f-4882-b6e8-ccd776459ca0"
+	}
+}
